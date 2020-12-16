@@ -33,4 +33,4 @@ jobs:
         file: deployments/dockerfile 
         tags: |
           ghcr.io/${{ github.repository_owner }}/test:latest
-          ghcr.io/${{ github.repository_owner }}/test:${{ steps.date.outputs.date }}
+          ghcr.io/${{ github.repository_owner }}/test:dogman
