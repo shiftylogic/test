@@ -29,8 +29,8 @@ jobs:
       uses: docker/build-push-action@v2 
       with: 
         push: true 
-        context: ./${{ github.workflow }}/ 
-        file: deployments/dockerfile 
+        context: Foo man shoe
+        file: Dockerfile 
         tags: |
           ghcr.io/${{ github.repository_owner }}/test:latest
           ghcr.io/${{ github.repository_owner }}/test:dogman
